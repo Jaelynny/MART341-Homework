@@ -1,0 +1,2 @@
+### My Thoughts
+As I was designing my events page, I had a hard time trying to get the dates into the correct week. I would love to further get that accuracte. It was most fun designing the Calendar overall. Even adding in a native design pattern for top, I tried using it as a background or border, but I hated how it felt on the eyes. I would like to further learn to add in a generator for each month with different codes of the month, so if viewers are interested in future events. They have the ability to look ahead. 
