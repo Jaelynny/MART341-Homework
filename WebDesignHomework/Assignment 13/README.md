@@ -9,3 +9,4 @@
 - Navigation Menu – Included a clear, user-friendly navigation menu.
 
 - Dropdown Menu – 
+- auto generate daily quotes with js script to generate random quote codes
