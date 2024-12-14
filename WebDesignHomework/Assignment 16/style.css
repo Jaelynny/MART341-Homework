@@ -47,21 +47,22 @@ h2{
     align-items: center;
 }
 
-.video-container, .image-container {
+.video-container
+{
     border: 2px solid white;
     padding: 10px;
     margin: 20px;
 }
 
-.tips-images {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
+.tips-images { display: flex; flex-direction: column; align-items: center; gap: 20px; } 
+.tips-images .image-container { width: 80%; ; padding: 10px}
 
-.tips-images .image-container {
-    flex: 1;
-}
+form { display: flex; flex-direction: column; gap: 10px; width: 80%; max-width: 500px; margin: 0 auto; } 
+label { font-size: large; margin-bottom: 5px; } 
+input, 
+textarea { font-size: medium; padding: 10px; border: 2px solid white; border-radius: 5px; background-color: rgba(255, 255, 255, 0.7); } 
+button { font-size: large; padding: 10px; border: none; border-radius: 5px; background-color: white; color: black; cursor: pointer; transition: background-color 0.3s, color 0.3s; } 
+button:hover { background-color: black; color: white; }
 
 footer p {
     margin: 0;

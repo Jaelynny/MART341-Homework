@@ -13,16 +13,27 @@
             <a href="tips.html">Tips</a>
             <a href="contact.html">Contact</a>
     </nav>
-    </header>
-    <main>
-        <section class="content">
-            <h1>Contact Us</h1>
-            <p>Reach out to us at <a href="mailto:info@minecraftguide.com">info@minecraftguide.com</a></p>
-        </section>
-    </main>
-    <footer>
-        <p>© 2024 Minecraft Guide. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+        <main>
+            <section class="content">
+                <h1>Contact Us</h1>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+    
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>© 2024 Minecraft Guide. All rights reserved.</p>
+        </footer>
+    </body>
+    </html>
+    
 
